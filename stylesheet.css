@@ -1,0 +1,131 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  bottom: 2px;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/bg-mobile.svg);
+  background-color: #674baf;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 40px;
+  padding: .5rem 4rem;
+  box-shadow: #282828 0px 5px 15px;
+  font-weight: 600;
+  color: #674baf;
+}
+
+.btn:hover {
+  background-color: #e882e8;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 2vh;
+}
+
+.fab {
+  border: solid 2px white;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 50%;
+  opacity: 0.8;
+  height: 30px;
+  width: 30px;
+}
+
+.fab:hover {
+  color: #e882e8;
+  border: solid 2px #e882e8;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: white;
+  opacity: 0.8;
+}
+
+
+.mockup {
+  width: 100%;
+}
+
+.description {
+  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
+
+}
+
+.socials {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+.text {
+  color: white;
+  opacity: 0.9;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+
+@media (min-width: 780px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .mockup {
+    text-align: center;
+    padding-top: 20vh;
+    width: 40vw;
+  }
+
+  .text {
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+
+
+}
+
+@media (min-width: 1000px) {
+
+  .text {
+    padding-top: 20vh;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  body {
+    background-image: url(images/bg-desktop.svg);
+  }
+
+  .fab {
+    margin: 1rem;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+  }
+
+}
