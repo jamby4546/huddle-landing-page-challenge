@@ -42,6 +42,50 @@ body {
   border: solid 2px white;
   color: white;
   padding: 0.3rem;
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  bottom: 2px;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/bg-mobile.svg);
+  background-color: #674baf;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 40px;
+  padding: .5rem 4rem;
+  box-shadow: #282828 0px 5px 15px;
+  font-weight: 600;
+  color: #674baf;
+}
+
+.btn:hover {
+  background-color: #e882e8;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding: 2vh;
+}
+
+.fab {
+  border: solid 2px white;
+  color: white;
+  padding: 0.3rem;
   border-radius: 50%;
   opacity: 0.8;
   height: 30px;
@@ -58,6 +102,8 @@ h3 {
   margin-top: 1rem;
   color: white;
   opacity: 0.8;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 
@@ -69,6 +115,11 @@ h3 {
   margin-bottom: 3.5rem;
   margin-bottom: 2.5rem;
 
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .socials {
